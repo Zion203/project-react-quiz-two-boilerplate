@@ -1,0 +1,64 @@
+#quizContent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    width: 50vw;
+    padding: 20px;
+    border-left: 7px solid rgb(33, 50, 147);
+}
+
+#choices{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+
+#choices > div{
+    background-color: rgb(33, 50, 147);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+#buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#buttons div:nth-child(2){
+    background-color: rgb(33, 50, 147);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#buttons div:nth-child(3){
+    color: rgb(33, 50, 147);
+    border: 3px solid rgb(33, 50, 147);
+    padding: 7px 14px;
+    border-radius: 5px;
+
+}
+
+#buttons div:nth-child(4){
+    background-color: rgb(248, 150, 150);
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: 3px solid rgb(169, 2, 2);
+    color:rgb(169, 2, 2);
+}
+
+#quesNo{
+    justify-self: unset;
+    text-align: left;
+    
+}
+
+#question{
+    position: relative;
+    bottom: 20px;
+}
